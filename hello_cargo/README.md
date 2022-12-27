@@ -1,3 +1,5 @@
+# Hello Cargo
+
 Let’s recap what we’ve learned so far about Cargo:
 
 - We can create a project using `cargo new`.

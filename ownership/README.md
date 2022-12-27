@@ -1,6 +1,9 @@
-# What have we learned?
+# Ownership
+See: https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html
 
-## Copy
+## What have we learned?
+
+### Copy
 Here are some of the types that implement `Copy`:
 - All the integer types, such as `u32`.
 - The Boolean type, `bool`, with values `true` and `false`.
@@ -8,7 +11,7 @@ Here are some of the types that implement `Copy`:
 - The character type, `char`.
 - Tuples, if they only contain types that also implement `Copy`. For example, `(i32, i32)` implements Copy, but `(i32, String)` does not.
 
-## Mutable References
+### Mutable References
 
 The restriction preventing multiple mutable references to the same data at the same time allows for mutation but in a very controlled fashion. It’s something that new Rustaceans struggle with, because most languages let you mutate whenever you’d like. The benefit of having this restriction is that Rust can prevent `data races` at compile time. A `data race` is similar to a `race condition` and happens when these three behaviors occur:
 
@@ -47,7 +50,7 @@ fn main() {
 }
 ```
 
-## The Rules of References
+### The Rules of References
 
 Let’s recap what we’ve discussed about references:
 

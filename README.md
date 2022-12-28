@@ -13,3 +13,4 @@ See: https://doc.rust-lang.org/book/title-page.html
 8. [Structs](/structs/README.md)
 9. [Enums](/enums/README.md)
 10. [Managing Growing Projects with Packages, Crates, and Modules](/restaurant/README.md)
+11. [Collections](/collections/README.md)

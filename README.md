@@ -16,3 +16,4 @@ See: https://doc.rust-lang.org/book/title-page.html
 11. [Collections](/collections)
 12. [Error handling](/error_handling)
     - [Guessing game with error handling](/guessing_game_with_error_handling)
+13. [Generic types, traits and lifetimes](/generic_traits_lifetimes/)

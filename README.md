@@ -20,3 +20,4 @@ See: https://doc.rust-lang.org/book/title-page.html
 14. [Automated tests](/automated_tests)
 15. [An I/O Project: Building a Command Line Program](/minigrep)
 16. [Functional Language Features: Iterators and Closures](/iterators_and_closures)
+17. [More About Cargo and Crates.io](/more_about_cargo)
